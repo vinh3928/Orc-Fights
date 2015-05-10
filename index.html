@@ -7,26 +7,36 @@
   <link rel="stylesheet" type= "text/css" href="style.css">
 </head>
 <body>
+  <header>
+    <img src="images/Header.png" alt="Title">
+  </header>
   <form action="" id='demoForm'>
     <label>
-      <input type="radio" name="player1" id="mango1" value="orcB" checked>Mango!
+      <input type="radio" name="player1" id="mango1" value="orcB" checked>
+      <img src="images/mango-label.png" alt="Mango">
       <img src="images/Mango1.png" alt="Mango Ready">
     </label>
     <label>
-      <input type="radio" name="player1" id="walrus1" value="orcA">Walrus!
+      <input type="radio" name="player1" id="walrus1" value="orcA">
+      <img src="images/walrus-label.png" alt="Walrus">
       <img src="images/Walrus1.png" alt="Walrus Ready">
     </label>
     <br>
+    <img src="images/versus-label.png" alt="versus" class="versus">
+    <br>
     <label>
-      <input type="radio" name="player2" id="mango2" value="orcB" checked>Mango!
+      <input type="radio" name="player2" id="mango2" value="orcB" checked>
+      <img src="images/mango-label.png" alt="Mango">
       <img src="images/Mango1.png" alt="Mango Ready">
     </label>
     <label>
-      <input type="radio" name="player2" id="walrus2" value="orcA">Walrus!
+      <input type="radio" name="player2" id="walrus2" value="orcA">
+      <img src="images/walrus-label.png" alt="Walrus">
       <img src="images/Walrus1.png" alt="Walrus Ready">
     </label>
     <br>
-    <input type="submit" name="submit" value="FIGHT!" onclick="fight()">
+    <label for="fight-button"></label>
+    <input type="submit" name="submit" value=" "onclick="fight()" class="fight-button">
   </form>
   <div id="div"></div>
 
