@@ -8,11 +8,23 @@
 </head>
 <body>
   <form action="" id='demoForm'>
-    <input type="radio" name="player1" value="orcA" checked>Walrus!
-    <input type="radio" name="player1" value="orcB">Mango!
+    <label>
+      <input type="radio" name="player1" id="mango1" value="orcB" checked>Mango!
+      <img src="images/Mango1.png" alt="Mango Ready">
+    </label>
+    <label>
+      <input type="radio" name="player1" id="walrus1" value="orcA">Walrus!
+      <img src="images/Walrus1.png" alt="Walrus Ready">
+    </label>
     <br>
-    <input type="radio" name="player2" id="walrus2" value="orcA"checked>Walrus!
-    <input type="radio" name="player2" id="mango2" value="orcB">Mango!
+    <label>
+      <input type="radio" name="player2" id="mango2" value="orcB" checked>Mango!
+      <img src="images/Mango1.png" alt="Mango Ready">
+    </label>
+    <label>
+      <input type="radio" name="player2" id="walrus2" value="orcA">Walrus!
+      <img src="images/Walrus1.png" alt="Walrus Ready">
+    </label>
     <br>
     <input type="submit" name="submit" value="FIGHT!" onclick="fight()">
   </form>

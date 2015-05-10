@@ -69,8 +69,7 @@ var fight = function(orcA, orcB, healthA, healthB) {
   }
 };
 
+
 var fightLog = document.getElementById('div');
 
-
-console.log(fight(orcA, orcB, orcA.health, orcB.health));
-console.log(playerOne);
+/*fightlog.innerHTML = fight(playerOne, playerTwo, playerOne.health, playerTwo.health);*/
