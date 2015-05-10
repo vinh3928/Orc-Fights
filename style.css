@@ -80,10 +80,13 @@ img {
   width: 150px;
   height: auto;
 }
-
+.fight-image {
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
 .fight-button {
-  background-image: url("images/fight-button.png");
-  background-size: cover;
+  display: hidden;
   width: 50%;
   height: 200px;
 }
