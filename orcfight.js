@@ -1,19 +1,19 @@
-var playerOneSelect = document.getElementsByName('player1');
+/**var playerOneSelect = document.getElementsByName('player1');
 var playerOne;
 for(i = 0; i < playerOneSelect.length; i++){
-    if(playerOneSelect[i].checked){
-        playerOne = playerOneSelect[i].value;
-    }
+      if(playerOneSelect[i].checked){
+                playerOne = playerOneSelect[i].value;
+                    }
 };
 
 var playerTwoSelect = document.getElementsByName('player2');
 var playerTwo;
 for(i = 0; i < playerTwoSelect.length; i++){
-    if(playerTwoSelect[i].checked){
-        playerTwo = playerTwoSelect[i].value;
-    }
+      if(playerTwoSelect[i].checked){
+                playerTwo = playerTwoSelect[i].value;
+                    }
 };
-
+**/
 var orcA = {
    name: "Walrus",
    strength: 10,
@@ -69,7 +69,5 @@ var fight = function(orcA, orcB, healthA, healthB) {
   }
 };
 
-
-var fightLog = document.getElementById('div');
 
 /*fightlog.innerHTML = fight(playerOne, playerTwo, playerOne.health, playerTwo.health);*/
